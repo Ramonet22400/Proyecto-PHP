@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteBase /proyecto
+options +FollowSymLinks
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule .* index.php/$0 [L]
+php_flag display_errors 1

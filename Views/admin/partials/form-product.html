@@ -1,0 +1,30 @@
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <form method="post" id="formProd" action="/proyecto/index.php/creararticulo">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Articulo</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+                <div class="mb-3">
+                  <label for="nombre" class="form-label">Nombre</label>
+                  <input type="text" name="nombre" class="form-control" id="nombre"  aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                  <label for="descripciom" class="form-label">Descripcion</label>
+                  <textarea name="descripcion"  id="descripcion" class="form-control"></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="descripciom" class="form-label">Imagen</label>
+                    <input type="text" name="imagen" id="imagen" class="form-control"  aria-describedby="emailHelp">
+                </div>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-primary">Guardar</button>
+        </div>
+        </form>
+      </div>
+    </div>
+  </div>
